@@ -20,6 +20,9 @@ An AI system that classifies input format and business intent from uploaded Emai
 - Uvicorn server
 - PDF & JSON parsers
 
+## 🧠 Agent Flow & Chaining Architecture
+![image](https://github.com/user-attachments/assets/90b1560a-932c-41e8-845b-257b01aa821a)
+
 ## 🧪 Sample Input Files
 
 All sample test inputs used in the demo can be found under the `data/` folder:
@@ -29,6 +32,17 @@ All sample test inputs used in the demo can be found under the `data/` folder:
 - `sample_invoice.pdf` – High-value invoice with GDPR mention
 - `sample_webhook_valid.json` – Well-structured webhook
 - `sample_webhook_invalid.json` – Invalid fields to trigger anomaly detection
+
+  
+## 🧾 Output Logs
+
+The `logs/` directory contains output JSONs for all the sample inputs processed through the system:
+
+- `complaint_email_output.json`
+- `sample_email_output.json`
+- `sample_invoice_output.json`
+- `sample_webhook_valid_output.json`
+- `sample_webhook_invalid_output.json`
 
 ## 🧑‍💻 How to Run Locally
 
