@@ -1,0 +1,13 @@
+{
+  "result": {
+    "agent": "pdf_agent",
+    "flags": [
+      "High invoice total",
+      "Compliance keyword found: GDPR"
+    ],
+    "extracted": {
+      "invoice_total": 12000
+    },
+    "status": "completed"
+  }
+}

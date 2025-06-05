@@ -1,0 +1,32 @@
+{
+  "result": {
+    "agent": "email_agent",
+    "sender": "angry.customer@example.com",
+    "subject": "Complaint regarding delayed delivery",
+    "tone": "angry",
+    "urgency": "high",
+    "action": "escalate",
+    "polarity_score": 9.25185853854297e-18,
+    "status": "completed",
+    "escalation_result": {
+      "args": {},
+      "data": "{\"escalate\": true}",
+      "files": {},
+      "form": {},
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate, zstd",
+        "Content-Length": "18",
+        "Content-Type": "application/json",
+        "Host": "httpbin.org",
+        "User-Agent": "python-requests/2.32.3",
+        "X-Amzn-Trace-Id": "Root=1-68414416-77ea660d71fbdb7966a82562"
+      },
+      "json": {
+        "escalate": true
+      },
+      "origin": "49.43.235.66",
+      "url": "http://httpbin.org/post"
+    }
+  }
+}

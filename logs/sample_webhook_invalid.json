@@ -1,0 +1,11 @@
+{
+  "result": {
+    "valid": false,
+    "anomalies": [
+      "Incorrect type for event_type: Expected str, got int",
+      "Incorrect type for currency: Expected str, got int",
+      "Amount must be greater than 0",
+      "Invalid timestamp format"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "result": {
+    "agent": "email_agent",
+    "sender": "Johndoe@example.com",
+    "subject": "Regular email",
+    "tone": "neutral",
+    "urgency": "normal",
+    "action": "log",
+    "polarity_score": 0.1590909090909091,
+    "status": "completed"
+  }
+}
