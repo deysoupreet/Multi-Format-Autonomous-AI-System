@@ -20,11 +20,15 @@ An AI system that classifies input format and business intent from uploaded Emai
 - Uvicorn server
 - PDF & JSON parsers
 
-## 🧪 Sample Inputs
+## 🧪 Sample Input Files
 
-- 📧 `data/sample_email.txt`
-- 📄 `data/invoice_sample.pdf`
-- 🟦 `data/sample_webhook.json`
+All sample test inputs used in the demo can be found under the `data/` folder:
+
+- `complaint_email.txt` – Escalation case
+- `sample_email.txt` – Routine email
+- `sample_invoice.pdf` – High-value invoice with GDPR mention
+- `sample_webhook_valid.json` – Well-structured webhook
+- `sample_webhook_invalid.json` – Invalid fields to trigger anomaly detection
 
 ## 🧑‍💻 How to Run Locally
 
