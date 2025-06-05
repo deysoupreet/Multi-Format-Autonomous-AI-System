@@ -1,0 +1,5 @@
+From: angry.customer@example.com
+Subject: Complaint regarding delayed delivery
+Body:
+This is unacceptable. I've been waiting for my order for over 10 days now.
+Please fix this immediately, or I’ll take legal action.
